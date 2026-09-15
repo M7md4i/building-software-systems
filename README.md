@@ -1,8 +1,12 @@
 # Building Software Systems
 
-A structured repository for notes, references, snippets, and experiments about building production software systems.
+A practical repository for organizing production-focused software engineering knowledge: architecture, APIs, databases, distributed systems, messaging, security, reliability, observability, performance, testing, DevOps, and system design.
 
-> Current state: scaffold only. Content will be added gradually.
+> Current state: repository structure only. Topic content will be added gradually.
+
+## Scope
+
+This repository is intended to capture engineering practices and system-level thinking for building maintainable, secure, scalable, observable, and reliable software systems.
 
 ## Structure
 
@@ -25,3 +29,18 @@ building-software-systems/
 ├── 14-production-incidents/
 └── resources/
 ```
+
+## Repository model
+
+Each section may eventually contain a mix of:
+
+- engineering notes
+- architectural patterns
+- focused code snippets
+- checklists
+- design trade-offs
+- performance and reliability experiments
+- production incident notes
+- high-quality external references
+
+The repository is intentionally kept modular so substantial applications, libraries, or reference implementations can live in separate repositories and be linked from here when appropriate.
