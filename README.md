@@ -1,36 +1,27 @@
 # Building Software Systems
 
-A practical knowledge base for designing, building, securing, operating, and evolving production software systems.
+A structured repository for notes, references, snippets, and experiments about building production software systems.
 
-This repository collects engineering notes, architecture patterns, checklists, focused code snippets, experiments, incident write-ups, and system-design references.
+> Current state: scaffold only. Content will be added gradually.
 
-## Areas
+## Structure
 
-- Architecture
-- APIs and backend engineering
-- Databases
-- Distributed systems
-- Messaging and event-driven systems
-- Caching
-- Security
-- Observability
-- Performance
-- Testing
-- Reliability
-- DevOps and delivery
-- Cloud and infrastructure
-- System design
-- Production incidents
-
-## Principles
-
-1. Prefer explicit trade-offs over fashionable architecture.
-2. Design for failure, not only the happy path.
-3. Measure before optimizing.
-4. Keep data ownership and boundaries clear.
-5. Automate repeatable operational work.
-6. Treat security, observability, and reliability as architecture concerns.
-7. Prefer simple systems until complexity earns its cost.
-8. Turn incidents into durable engineering improvements.
-
-> The goal is to understand how production software behaves, fails, scales, and evolves—not just how to make it run locally.
+```text
+building-software-systems/
+├── README.md
+├── 01-architecture/
+├── 02-api-design/
+├── 03-databases/
+├── 04-distributed-systems/
+├── 05-messaging/
+├── 06-caching/
+├── 07-security/
+├── 08-observability/
+├── 09-performance/
+├── 10-reliability/
+├── 11-testing/
+├── 12-devops/
+├── 13-system-design/
+├── 14-production-incidents/
+└── resources/
+```
